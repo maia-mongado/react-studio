@@ -1,7 +1,8 @@
 /* Add styling for your page here */
 
 .App {
-
+    display: flex;
+    flex-direction: row;
 }
 
 .BakeryItem {
