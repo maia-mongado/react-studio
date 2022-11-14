@@ -39,7 +39,7 @@ function App() {
         <h2>Cart</h2>
         {Object.keys(cart).map((key, value) => ( /* DONE: render a list of items in the cart */
         <p>
-          <li key={key}> {key} * {cart[key]}</li>
+          <li key={key}> {key} x {cart[key]}</li>
         </p>
         ))}
         <p>Total: {total}</p>
